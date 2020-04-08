@@ -2650,7 +2650,7 @@ button.result-link img{
         margin-left: 0;
     }
     .reusult-slider-content{
-        width: 90vw;
+        width: calc(100vw - 20px);
     }
     .reuslt-slider-right img{
         margin-left: 0;
