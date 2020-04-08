@@ -2652,6 +2652,9 @@ button.result-link img{
     .reusult-slider-content{
         width: calc(100vw - 20px);
     }
+    .reuslt-slider-left{
+        margin: 0 auto;
+    }
     .reuslt-slider-right img{
         margin-left: 0;
     }
