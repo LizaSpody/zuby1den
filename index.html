@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./font/lato.css">
     <link rel="stylesheet" href="./newStyle.css">
     <title>Document</title>
+    <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
 <header id="headerTop">
@@ -46,18 +47,50 @@
 </header>
 <section class="first-main">
     <div class="container">
+        <img class="first-photo" src="./img/lirisa.png" alt="">
         <h1 class="main-title">Верните все зубы за 1 день <br>
             по самой надежной <br>
             швейцарской технологии</h1>
-        <div class="feadback-block">
-            <ul class="main-list">
-                <li class="main-list-item">Методика All-on-4 восстановления всех зубов одновременно</li>
-                <li class="main-list-item">Запатентована Nobel Biocare в Швейцарии в 1998 году</li>
-            </ul>
-            <button class="feadback-block-button">
-                Бесплатная консультация
-            </button>
+        <div class="feedback-container">
+            <div class="feadback-block">
+                <ul class="main-list">
+                    <li class="main-list-item">Методика All-on-4 восстановления всех зубов одновременно</li>
+                    <li class="main-list-item">Запатентована Nobel Biocare в Швейцарии в 1998 году</li>
+                </ul>
+                <button class="feadback-block-button">
+                    Бесплатная консультация
+                </button>
+            </div>
+            <div class="feedback-form">
+                <div class="close-form">
+                    <img src="./img/close-form.png" alt="">
+                </div>
+                <div role="form" class="wpcf7" id="wpcf7-f58-o1" dir="ltr" lang="ru-RU">
+                    <div class="screen-reader-response"></div>
+                    <form action="/#wpcf7-f58-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                        <div style="display: none;">
+                            <input type="hidden" name="_wpcf7" value="58">
+                            <input type="hidden" name="_wpcf7_version" value="5.1.6">
+                            <input type="hidden" name="_wpcf7_locale" value="ru_RU">
+                            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f58-o1">
+                            <input type="hidden" name="_wpcf7_container_post" value="0">
+                        </div>
+                        <p><span class="wpcf7-form-control-wrap tel-455"><input type="tel" name="tel-455" value=""
+                                                                                size="40"
+                                                                                class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel tel"
+                                                                                aria-required="true"
+                                                                                aria-invalid="false"
+                                                                                placeholder="+7(___)-___-__-__"></span>
+                        </p>
+                        <p><input type="submit" value="Позвоните мне" class="wpcf7-form-control wpcf7-submit"><span
+                                class="ajax-loader"></span></p>
+                        <div class="wpcf7-response-output wpcf7-display-none"></div>
+                    </form>
+                    <p class="form-bottom-text">Нажимая на кнопку вы даете согласие на обработку <a href="">персональных данных</a></p>
+                </div>
+            </div>
         </div>
+
 
     </div>
 </section>
@@ -93,7 +126,7 @@
                         <iframe src="https://www.youtube.com/embed/NDJ1Ya4tqds"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
-                        <button class="five-button">Заказать бесплатную консультацию</button>
+                        <button class="five-button overlay-on">Заказать бесплатную консультацию</button>
                     </div>
                 </div>
             </div>
@@ -386,7 +419,7 @@
         <div class="pacient-feedback">
             <h3>Хотите продлить своё долголетие?</h3>
             <p> Запишитесь на <br> бесплатную консультацию</p>
-            <button>Записаться</button>
+            <button class=" overlay-on">Записаться</button>
         </div>
     </div>
 </section>
@@ -475,6 +508,33 @@
 
                         </div>
                     </div>
+                    <div class="result-slider-before">
+                        <div class="reusult-slider-content">
+                            <div class="result-content-row">
+                                <div class="result-slider-item reuslt-slider-left"><img
+                                        src="https://zubyza1den.com/wp-content/themes/zzd/img/commit/before2.jpeg"
+                                        alt=""><span>Было</span></div>
+                                <div class="result-content-text">
+                                    <h3>Исходная ситуация:</h3>
+                                    <p>Пациентка М. 59 лет обратилась с жалобами на неудовлетворительный вид старых
+                                        протезов, невозможность полноценно жевать</p>
+                                </div>
+                            </div>
+                            <div class="result-content-row result-content-row-bottom">
+                                <div class="result-content-text">
+                                    <h3>Решение:</h3>
+                                    <p>Изготовлены несъемные протезы по технологии немедленной нагрузки за один день
+                                        AII-on-4 на верхнюю и нижнюю челюсти</p>
+                                    <button class="result-link"><span>Смотреть видео-отзыв</span><img
+                                            src="./img/youtube_result.png" alt=""></button>
+                                </div>
+                                <div class="result-slider-item reuslt-slider-right"><img
+                                        src="https://zubyza1den.com/wp-content/themes/zzd/img/commit/after2.jpeg"
+                                        alt=""><span>Стало через 1 день</span></div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
                 <button class="next-button-result"><img
                         src="./img/next-button.png" alt=""></button>
@@ -523,7 +583,7 @@
                 <br> 15
                 000 -20 000 евро за 1 протез</p>
         </div>
-        <button class="prize-call">Бесплатная консультация</button>
+        <button class="prize-call overlay-on">Бесплатная консультация</button>
         <div class="price-contauner">
             <div class="price-item">
                 <div class="price-title"><h3>Самое доступное решение <span>Израиль</span>от <b>180 000</b> руб</h3>
@@ -622,10 +682,10 @@
 <section class="last-section">
     <div class="container">
         <div class="last-section-text">
-            <h2 class="main-last-content-title"><span>За 2018-2019 года </span>наши врачи уже<br> вернули зубы
+            <h2 class="main-last-content-title"><span>За 2018-2020 года </span>наши врачи уже<br> вернули зубы
                 по методу All-on-4 <br><span>1180 пациентам</span></h2>
             <h3 class="main-last-content-pretitle">Станьте одним из них</h3>
-            <button class="last-button">Бесплатная консультация</button>
+            <button class="overlay-on last-button">Бесплатная консультация</button>
         </div>
         <div class="last-section-photo">
             <div class="last-section-photo-item">
@@ -703,10 +763,45 @@
         </div>
     </div>
 </footer>
-<script>$(document).ready(function() {
+<div class="overlay">
+    <div class="feedback-form">
+        <div class="close-form">
+            <img class="overlay-close-img" src="./img/close-form.png" alt="">
+        </div>
+        <div role="form" class="wpcf7" id="wpcf7-f58-o1" dir="ltr" lang="ru-RU">
+            <div class="screen-reader-response"></div>
+            <form action="/#wpcf7-f58-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                <div style="display: none;">
+                    <input type="hidden" name="_wpcf7" value="58">
+                    <input type="hidden" name="_wpcf7_version" value="5.1.6">
+                    <input type="hidden" name="_wpcf7_locale" value="ru_RU">
+                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f58-o1">
+                    <input type="hidden" name="_wpcf7_container_post" value="0">
+                </div>
+                <p><span class="wpcf7-form-control-wrap tel-455"><input type="tel" name="tel-455" value=""
+                                                                        size="40"
+                                                                        class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel tel"
+                                                                        aria-required="true"
+                                                                        aria-invalid="false"
+                                                                        placeholder="+7(___)-___-__-__"></span>
+                </p>
+                <p><input type="submit" value="Позвоните мне" class="wpcf7-form-control wpcf7-submit"><span
+                        class="ajax-loader"></span></p>
+                <div class="wpcf7-response-output wpcf7-display-none"></div>
+            </form>
+            <p class="form-bottom-text">Нажимая на кнопку вы даете согласие на обработку <a href="">персональных данных</a></p>
+        </div>
+    </div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="maskinput.js"></script>
+<script src="main.js"></script>
+<script>
+    $(document).ready(function () {
 
 
-    $("a.up").click(function() {
+    $("a.up").click(function () {
         $("html, body").animate({
             scrollTop: $($(this).attr("href")).offset().top + "px"
         }, {
@@ -717,6 +812,12 @@
     });
 
 
-});</script>
+});
+</script>
+<script type="text/javascript">
+    $(function ($) {
+        $(".tel").mask("+7(999)-999-99-99");
+    });
+</script>
 </body>
 </html>
