@@ -64,6 +64,21 @@ button{
     border-left: 45px solid #CAD3E2;
 }
 
+@media(min-width: 1500px){
+    .border-left{
+        left: -130px;
+    }
+    .line-right{
+        right: -75px;
+    }
+    .border-right{
+        right: -130px;
+    }
+    .line-left{
+        left: -76px;
+    }
+}
+
 .humberger-container {
     width: 50%;
     display: none;
@@ -308,6 +323,7 @@ header .header-info div p a {
     position: relative;
     flex-direction: column;
     justify-content: center;
+    padding-top: 30px;
     min-height: calc(100vh - 95px);
 }
 
@@ -1054,7 +1070,7 @@ header .header-info div p a {
     bottom: 0;
     background-color: #E8E8E8;
     display: block;
-    width: 470px;
+    width: 370px;
     height: 315px;
     z-index: -1;
 }
@@ -1094,6 +1110,7 @@ header .header-info div p a {
 
 .eight-block .name {
     font-size: 20px;
+    margin-top: 0;
     font-weight: 700;
 }
 
@@ -1490,6 +1507,7 @@ button.result-link img{
 .last-section{
     height: 685px;
     background-image: url(./img/last-section.jpg);
+    background-size: cover;
 }
 
 .last-section .container{
